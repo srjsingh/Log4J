@@ -5,6 +5,7 @@
     <classes>
       <class name="com.tests.LoginTest">
         <methods>
+          <include name="yatraLogoTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="yatraTitleTest"/>

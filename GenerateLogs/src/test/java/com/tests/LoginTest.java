@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,6 +28,7 @@ public class LoginTest {
 	//where to create: create inside resources folder
 	
 	WebDriver driver;
+	Logger log = Logger.getLogger(LoginTest.class);
 	
 	@BeforeMethod
 	public void setup() {
@@ -46,6 +48,7 @@ public class LoginTest {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		
+		log.info("entering url");
 		
 		driver.get("http://yatra.com");
 	}
