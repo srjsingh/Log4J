@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-27T00:00:26 IST" name="Default suite" finished-at="2021-06-27T00:01:53 IST" duration-ms="86851">
+  <suite started-at="2021-06-27T00:19:39 IST" name="Default suite" finished-at="2021-06-27T00:20:13 IST" duration-ms="34692">
     <groups>
     </groups>
-    <test started-at="2021-06-27T00:00:26 IST" name="Default test" finished-at="2021-06-27T00:01:53 IST" duration-ms="86851">
+    <test started-at="2021-06-27T00:19:39 IST" name="Default test" finished-at="2021-06-27T00:20:13 IST" duration-ms="34692">
       <class name="com.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@55183b20]" started-at="2021-06-27T00:00:26 IST" name="setup" finished-at="2021-06-27T00:01:09 IST" duration-ms="42495" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@9597028]" started-at="2021-06-27T00:19:39 IST" name="setup" finished-at="2021-06-27T00:19:56 IST" duration-ms="17718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="yatraTitleTest()[pri:1, instance:com.tests.LoginTest@55183b20]" started-at="2021-06-27T00:01:09 IST" name="yatraTitleTest" finished-at="2021-06-27T00:01:09 IST" duration-ms="34" status="PASS">
+        <test-method signature="yatraTitleTest()[pri:1, instance:com.tests.LoginTest@9597028]" started-at="2021-06-27T00:19:56 IST" name="yatraTitleTest" finished-at="2021-06-27T00:19:56 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yatraTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@55183b20]" started-at="2021-06-27T00:01:09 IST" name="tearDown" finished-at="2021-06-27T00:01:10 IST" duration-ms="1000" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@9597028]" started-at="2021-06-27T00:19:56 IST" name="tearDown" finished-at="2021-06-27T00:19:57 IST" duration-ms="907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@55183b20]" started-at="2021-06-27T00:01:10 IST" name="setup" finished-at="2021-06-27T00:01:51 IST" duration-ms="41520" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@9597028]" started-at="2021-06-27T00:19:57 IST" name="setup" finished-at="2021-06-27T00:20:12 IST" duration-ms="14409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="yatraLogoTest()[pri:2, instance:com.tests.LoginTest@55183b20]" started-at="2021-06-27T00:01:51 IST" name="yatraLogoTest" finished-at="2021-06-27T00:01:51 IST" duration-ms="245" status="PASS">
+        <test-method signature="yatraLogoTest()[pri:2, instance:com.tests.LoginTest@9597028]" started-at="2021-06-27T00:20:12 IST" name="yatraLogoTest" finished-at="2021-06-27T00:20:12 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yatraLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@55183b20]" started-at="2021-06-27T00:01:51 IST" name="tearDown" finished-at="2021-06-27T00:01:53 IST" duration-ms="1467" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@9597028]" started-at="2021-06-27T00:20:12 IST" name="tearDown" finished-at="2021-06-27T00:20:13 IST" duration-ms="1357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
